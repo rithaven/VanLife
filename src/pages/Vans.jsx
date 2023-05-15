@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 
-
 export default function Vans() {
     const [vans, setVans] = useState([])
     useEffect(() => {
