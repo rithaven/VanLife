@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Navbar from "./components/layout/Navbar";
 import Vans from "./pages/Vans"
-
+import  "./Server.js"
 import Footer from "./components/layout/Footer";
 
 function App() {
