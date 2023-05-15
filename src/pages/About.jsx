@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 const About = () => {
   return (
     <div className="text-[#161616] px-2 ">
-            <img src={bgImg} className="w-full" />
+            <img src={bgImg} className="w-full" alt="Home" />
             <div className="p-4 m-auto max-w-7xl">
             <div className="p-6 mb-14">
                 <h1 className="text-3xl font-bold mb-7">Don’t squeeze in a sedan when you could relax in a van.</h1>
