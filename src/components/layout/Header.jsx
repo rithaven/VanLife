@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div className="flex items-center justify-between py-5 m-auto font-bold max-w-7xl">
       <Link className="lg:text-4xl" to="/">#VANILIFE</Link>
@@ -11,4 +11,4 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar;
+export default Header;
