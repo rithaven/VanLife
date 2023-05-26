@@ -4,7 +4,6 @@ import Home from "./pages/Vans/Home";
 import About from "./pages/Vans/About";
 import Vans from "./pages/Vans/Vans";
 import "./Server";
-import Footer from "./components/layout/Footer";
 import VansDetail from "./pages/Vans/VansDetail";
 import Layout from "./components/layout/Layout";
 import Dashboard from "./pages/Host/Dashboard";
