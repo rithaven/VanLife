@@ -3,9 +3,7 @@ const Dashboard = () => {
   return (
     <>
    
- <div className="h-screen">
-   Dashboard
- </div>
+   <h1 className="text-5xl font-bold">Dashboard</h1>
    </>
   )
 }
