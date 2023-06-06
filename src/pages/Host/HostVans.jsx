@@ -13,7 +13,7 @@ export default function HostVans() {
 
     const hostVansEls = vans.map(van => (
         <Link
-            to={`/host/vans/${van.id}`}
+            to={van.id}
             key={van.id}
         >
             <div className="p-6 my-10 bg-white w-[500px] md:w-[1000px] flex gap-6" key={van.id}>

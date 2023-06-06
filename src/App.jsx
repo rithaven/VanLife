@@ -14,6 +14,7 @@ import Income from "./pages/Host/Income";
 import Reviews from "./pages/Host/Reviews";
 import HostLayout from "./components/layout/HostLayout";
 import HostVanDetail from "./pages/Host/HostVanDetail";
+import NotFound from "./pages/NotFound";
 
 import "./Server";
 function App() {
@@ -38,6 +39,7 @@ function App() {
               <Route path="photos" element={<HostVanPhotos />} />
             </Route>
           </Route>
+          <Route path="*" element={<NotFound />}/>
         </Route>
       </Routes>
   
